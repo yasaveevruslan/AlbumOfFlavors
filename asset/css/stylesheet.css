@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/asset/fonts/montserrat/Montserrat-Medium.woff2') format('woff2'),
+        url('/asset/fonts/montserrat/Montserrat-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/asset/fonts/montserrat/Montserrat-MediumItalic.woff2') format('woff2'),
+        url('/asset/fonts/montserrat/Montserrat-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/asset/fonts/montserrat/Montserrat-Regular.woff2') format('woff2'),
+        url('/asset/fonts/montserrat/Montserrat-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/asset/fonts/montserrat/Montserrat-SemiBold.woff2') format('woff2'),
+        url('/asset/fonts/montserrat/Montserrat-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/asset/fonts/montserrat/Montserrat-SemiBoldItalic.woff2') format('woff2'),
+        url('/asset/fonts/montserrat/Montserrat-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Unbounded';
+    src: url('/asset/fonts/unbounded//asset/fonts/unbounded/Unbounded-Bold.woff2') format('woff2'),
+        url('/asset/fonts/unbounded/Unbounded-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Unbounded';
+    src: url('/asset/fonts/unbounded/Unbounded-ExtraBold.woff2') format('woff2'),
+        url('/asset/fonts/unbounded/Unbounded-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Unbounded';
+    src: url('/asset/fonts/unbounded/Unbounded-ExtraLight.woff2') format('woff2'),
+        url('/asset/fonts/unbounded/Unbounded-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Unbounded';
+    src: url('/asset/fonts/unbounded/Unbounded-Light.woff2') format('woff2'),
+        url('/asset/fonts/unbounded/Unbounded-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Unbounded';
+    src: url('/asset/fonts/unbounded/Unbounded-Medium.woff2') format('woff2'),
+        url('/asset/fonts/unbounded/Unbounded-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Unbounded';
+    src: url('/asset/fonts/unbounded/Unbounded-Regular.woff2') format('woff2'),
+        url('/asset/fonts/unbounded/Unbounded-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Unbounded';
+    src: url('/asset/fonts/unbounded/Unbounded-SemiBold.woff2') format('woff2'),
+        url('/asset/fonts/unbounded/Unbounded-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}

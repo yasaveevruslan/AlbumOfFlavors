@@ -1,0 +1,1603 @@
+﻿@media (max-width: 1024px) {
+    .container {
+        max-width: 900px;
+        gap: 20px;
+    }
+
+    .desktop_header {
+        display: none;
+    }
+
+    .mobile_header {
+        display: block;
+    }
+
+    header.v1 {
+        padding: 12px 0;
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
+    .recipes_grid,
+    .my_recipes_grid,
+    .subscriptions_grid,
+    .audience_grid {
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+
+    .recipes_grid {
+        gap: 14px;
+        margin-bottom: 32px;
+    }
+
+    .recipe_card_image {
+        padding: 14px 14px 0;
+    }
+
+    .recipe_card_body {
+        padding: 14px;
+        gap: 10px;
+    }
+
+    .recipe_card_title {
+        font-size: 15px;
+    }
+
+    .recipe_card_meta {
+        font-size: 13px;
+    }
+
+    .recipe_card_ingredients {
+        font-size: 13px;
+    }
+
+    .btn_icon {
+        width: 34px;
+        height: 34px;
+    }
+
+    .btn_icon img {
+        width: 16px;
+        height: 16px;
+    }
+
+    .recipe_card_details {
+        padding: 20px;
+    }
+
+    .details_ingredients h4 {
+        font-size: 15px;
+    }
+
+    .details_ingredients li {
+        font-size: 13px;
+    }
+
+    .form_grid,
+    .forms_row {
+        grid-template-columns: 1fr !important;
+        gap: 24px !important;
+    }
+
+    .hero_wrapper {
+        background: #fff;
+        height: fit-content;
+    }
+
+    .hero_banner {
+        display: flex;
+        min-height: auto;
+        padding: 0px;
+        max-width: 80%;
+        margin: 0 auto;
+        height: fit-content;
+        top: 0px;
+    }
+
+    .hero_left {
+        display: none;
+    }
+
+    .hero_right {
+        padding: 0px;
+        height: 400px;
+        gap: 35px;
+    }
+
+    .hero_title {
+        font-size: 36px;
+    }
+
+    .hero_description {
+        max-width: 100%;
+    }
+
+    .audience_grid {
+        grid-template-rows: auto;
+    }
+
+    .audience_card--wide {
+        grid-column: 1 / 3;
+    }
+
+    .audience_card--text-bottom {
+        grid-column: auto;
+        grid-row: auto;
+    }
+
+    .newsletter_section {
+        padding: 28px 32px;
+    }
+
+    .profile_container {
+        flex-direction: column !important;
+    }
+
+    .profile_sidebar {
+        max-width: 100% !important;
+        width: 100% !important;
+    }
+
+    header.v1 .header_container {
+        padding: 0 24px;
+    }
+
+    header.v1 .header_container>div:first-child {
+        gap: 24px !important;
+    }
+
+    .recipe_title {
+        font-size: 28px;
+    }
+
+    .recipe_top {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+
+    .recipe_gallery {
+        max-height: none;
+        grid-template-columns: 1fr 100px;
+        grid-template-rows: repeat(3, 1fr) auto;
+    }
+
+    .ingredients_title {
+        font-size: 22px;
+    }
+
+    .steps_grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+    }
+
+    .section_title {
+        font-size: 22px;
+    }
+
+    .search_input input::placeholder {
+        font-size: 12px;
+        max-width: 88%;
+    }
+
+    .products_table {
+        min-width: 600px;
+    }
+
+    .products_table thead th {
+        padding: 0 12px;
+        font-size: 12px;
+        height: 42px;
+    }
+
+    .products_table tbody td {
+        padding: 12px;
+        font-size: 13px;
+    }
+
+    .scroll_mobile_box {
+        display: flex;
+        flex-wrap: nowrap !important;
+        overflow: auto;
+        margin: 0 -16px !important;
+        padding: 24px 16px 8px 8px !important;
+    }
+
+    .scroll_mobile_box>* {
+        width: 162px;
+        margin: 0 0 0 8px !important;
+    }
+
+    .main_category_item {
+        flex-direction: column-reverse;
+        padding: 16px;
+    }
+
+    .main_categories_list:not(.scroll_mobile_box) .main_category_item {
+        width: calc(100% - 16px);
+    }
+
+    .main_categories_list:not(.scroll_mobile_box) .main_category_item {
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+
+    .main_categories_list:not(.scroll_mobile_box) .main_category_item .main_category_body {
+        padding-top: 0;
+        margin-left: 16px;
+    }
+
+    .profile_info {
+        padding: 0 30px;
+        margin-top: -80px;
+    }
+
+    .profile_info .profile_avatar {
+        width: 150px;
+        height: 150px;
+    }
+
+    .profile_info .profile_username,
+    .profile_info .profile_email {
+        font-size: 14px;
+    }
+
+    .profile_sidebar {
+        max-width: 100% !important;
+        width: 100% !important;
+    }
+
+    .profile_form .forms_row {
+        flex-direction: column;
+    }
+
+    .editor_main {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+
+    .editor_sidebar_content {
+        max-width: 240px;
+        padding: 16px;
+    }
+
+    .editor_sidebar_tabs {
+        flex-direction: row;
+        position: static;
+        width: 100%;
+        padding: 8px;
+        justify-content: space-around;
+    }
+
+    .sidebar_tab_vertical {
+        flex-direction: row;
+        width: auto;
+        flex: 1;
+        border-radius: 10px;
+        padding: 10px;
+        justify-content: center;
+    }
+
+    .sidebar_tab_vertical span {
+        writing-mode: horizontal-tb;
+        transform: none;
+        font-size: 13px;
+    }
+
+    .editor_sidebar_content {
+        max-width: 100%;
+        width: 100%;
+        max-height: 50vh;
+        border-radius: 12px;
+    }
+
+    .cards_grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .materials_categories {
+        justify-content: center;
+    }
+
+    .canvas_area {
+        padding: 10px;
+        overflow-x: auto;
+        justify-content: flex-start;
+    }
+
+    .book_spread {
+        width: 100%;
+        max-width: 882px;
+        aspect-ratio: 882 / 550;
+        height: auto;
+        background-size: 100% 100%;
+        margin: 0 auto;
+    }
+
+    .book_page {
+        width: 50%;
+        height: 100%;
+        padding: 5%;
+    }
+
+    .book_page--left {
+        left: 0;
+    }
+
+    .book_page--right {
+        right: 0;
+    }
+
+    .page_number {
+        font-size: clamp(8px, 2vw, 11px);
+        bottom: 5%;
+    }
+
+    .page_number--left {
+        left: 5%;
+    }
+
+    .page_number--right {
+        right: 5%;
+    }
+
+    .editor_footer {
+        flex-wrap: wrap;
+        gap: 8px;
+        padding: 12px;
+    }
+
+    .spread_info {
+        order: -1;
+        width: 100%;
+        margin-bottom: 4px;
+    }
+
+    .nav_btn {
+        width: 44px;
+        height: 44px;
+    }
+
+    .btn_add_spread {
+        flex: 1;
+        justify-content: center;
+        min-height: 44px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 740px;
+    }
+
+    .recipes_grid,
+    .my_recipes_grid,
+    .subscriptions_grid,
+    .collections-grid {
+        grid-template-columns: 1fr !important;
+    }
+
+    .audience_grid {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .recipe_section .section_nav {
+        display: none;
+    }
+
+    .recipes_grid {
+        gap: 16px;
+        margin-bottom: 20px;
+    }
+
+    .header_container {
+        flex-wrap: wrap !important;
+        gap: 12px !important;
+        padding: 0 16px !important;
+    }
+
+    .header_center {
+        order: 3 !important;
+        width: 100% !important;
+        justify-content: center !important;
+    }
+
+    header.v1 .header_container {
+        flex-wrap: wrap;
+        padding: 0 16px;
+        gap: 12px;
+        max-height: none;
+    }
+
+    header.v1 .header_container>div:first-child {
+        flex: 1;
+        min-width: 200px;
+        gap: 16px !important;
+    }
+
+    .header_center {
+        order: 3;
+        width: 100%;
+        justify-content: center;
+        max-height: none;
+    }
+
+    .menu_btn_v1 {
+        height: 44px;
+        font-size: 13px;
+        padding: 0 16px;
+    }
+
+    .auth_buttons {
+        gap: 8px;
+    }
+
+    .auth-btn {
+        padding: 8px 16px;
+        font-size: 13px;
+    }
+
+
+    header .logo_container::before {
+        content: '';
+        width: 228px;
+        height: 52px;
+        background-image: url(../img/logo_mob.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .audience_card--hide-mobile {
+        display: none !important;
+    }
+
+    .hero_title {
+        font-size: 26px;
+    }
+
+    .section_main_title,
+    .audience_title {
+        font-size: 22px !important;
+    }
+
+    .hero_cta,
+    .btn_delete,
+    .btn_admin,
+    .btn_author {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+
+    .modal,
+    .album-modal,
+    .confirm-modal {
+        max-width: calc(100% - 32px) !important;
+        width: calc(100% - 32px) !important;
+    }
+
+    .categories_tags {
+        gap: 6px !important;
+    }
+
+    .category_tag {
+        padding: 6px 12px !important;
+        font-size: 12px !important;
+    }
+
+    footer .footer_main,
+    footer .navigation,
+    footer .footer_extend,
+    footer .meta_links {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        gap: 14px;
+    }
+
+    footer .footer_extend {
+        flex-direction: column-reverse !important;
+    }
+
+    .hero_banner {
+        grid-template-columns: 1fr;
+        background: #fff;
+    }
+
+    .hero_right {
+        order: -1;
+        padding: 32px 20px;
+    }
+
+    .hero_left {
+        order: 0;
+        padding: 20px;
+        min-height: auto;
+    }
+
+    .hero_title {
+        font-size: 28px;
+    }
+
+    .highlight {
+        padding: 2px 12px;
+    }
+
+    .hero_description {
+        font-size: 14px;
+    }
+
+    .hero_cta {
+        padding: 12px 24px;
+        font-size: 14px;
+    }
+
+    .audience_section {
+        padding: 0 16px;
+    }
+
+    .audience_title {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .audience_grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        gap: 12px;
+    }
+
+    .audience_card {
+        min-height: 260px;
+    }
+
+    .audience_card--wide {
+        grid-column: auto;
+    }
+
+    .audience_card--text-top .audience_card_text,
+    .audience_card--text-bottom .audience_card_text {
+        padding: 16px 20px;
+    }
+
+    .audience_card_title {
+        font-size: 18px;
+    }
+
+    .audience_card_desc {
+        font-size: 13px;
+    }
+
+    .recipe_section {
+        padding: 0 16px;
+    }
+
+    .section_header {
+        flex-direction: column;
+        gap: 16px;
+        margin-bottom: 20px;
+    }
+
+    .section_main_title {
+        font-size: 24px;
+    }
+
+    .section_sub_title {
+        font-size: 14px;
+    }
+
+    .section_nav {
+        align-self: flex-end;
+    }
+
+    .newsletter_section {
+        padding: 24px 20px;
+    }
+
+    .newsletter_content {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+    }
+
+    .newsletter_icon {
+        display: none;
+    }
+
+    .newsletter_text {
+        min-width: auto;
+    }
+
+    .newsletter_title {
+        font-size: 18px;
+    }
+
+    .newsletter_form {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .newsletter_input {
+        width: 100%;
+    }
+
+    .newsletter_btn {
+        width: 100%;
+    }
+
+    .main_category_item {
+        flex-direction: column-reverse;
+        padding: 16px;
+    }
+
+    .main_categories_list:not(.scroll_mobile_box) .main_category_item {
+        width: calc(100% - 16px);
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+
+    .main_categories_list:not(.scroll_mobile_box) .main_category_item .main_category_body {
+        padding-top: 0;
+        margin-left: 16px;
+    }
+
+    .main_category_img {
+        margin-left: 0;
+        width: 72px;
+        height: 72px;
+    }
+
+    .main_category_body {
+        padding-top: 12px;
+    }
+
+    .main_category_body p {
+        display: none;
+    }
+
+    .products-grid.grid-2,
+    .products-grid.grid-3,
+    .products-grid.grid-4 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    main {
+        padding: 20px 0;
+    }
+
+    .category_header {
+        flex-direction: column;
+    }
+
+    .breadcrumbs span {
+        display: none;
+    }
+
+    .breadcrumbs>*:not(:nth-last-child(-n+2)) {
+        display: none;
+    }
+
+    .breadcrumbs a:after {
+        display: none;
+    }
+
+    .breadcrumbs a {
+        display: inline-flex;
+    }
+
+    .breadcrumbs a:before {
+        content: "";
+        margin-right: 8px;
+        flex: 0 0 auto;
+        width: 16px;
+        height: 16px;
+        background: url(../img/back_icon.svg) no-repeat 50% 50% / contain;
+    }
+
+    .recipe_page {
+        padding: 0 10px 10px;
+    }
+
+    .breadcrumbs {
+        font-size: 13px;
+        flex-wrap: wrap;
+        gap: 4px;
+    }
+
+    .recipe_title {
+        font-size: 24px;
+        margin-bottom: 12px;
+    }
+
+    .recipe_description {
+        font-size: 14px;
+    }
+
+    .recipe_gallery {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto;
+        gap: 10px;
+    }
+
+    .recipe_main_image {
+        grid-row: auto;
+        grid-column: auto;
+        aspect-ratio: 16/10;
+    }
+
+    .recipe_thumbs {
+        grid-column: auto;
+        grid-row: auto;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr;
+        gap: 10px;
+    }
+
+    .recipe_likes {
+        grid-column: auto;
+        grid-row: auto;
+        justify-content: flex-start;
+        padding: 10px 0;
+    }
+
+    .recipe_ingredients_block {
+        padding: 16px;
+    }
+
+    .ingredients_title {
+        font-size: 20px;
+    }
+
+    .ingredient_item {
+        padding: 12px 14px;
+        font-size: 14px;
+    }
+
+    .steps_wrapper {
+        padding: 20px;
+        border-radius: 16px;
+    }
+
+    .section_title {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .steps_grid {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 12px;
+    }
+
+    .step_body {
+        padding: 12px;
+    }
+
+    .step_title {
+        font-size: 15px;
+    }
+
+    .step_description {
+        font-size: 13px;
+    }
+
+    .recipe_comments {
+        margin-top: 32px;
+    }
+
+    .comment_item {
+        padding: 12px;
+    }
+
+    .comment_avatar {
+        width: 38px;
+        height: 38px;
+        font-size: 16px;
+    }
+
+    .side-panel {
+        max-width: 100%;
+        right: -100%;
+        height: 100vh;
+        border-radius: 0;
+    }
+
+    .side-panel.active {
+        right: 0;
+    }
+
+    .panel-header {
+        padding: 16px 20px;
+    }
+
+    .panel-title {
+        font-size: 18px;
+    }
+
+    .panel-body {
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .collections-grid {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+
+    .collection-card {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .collection-img {
+        width: 100px;
+        height: 80px;
+        aspect-ratio: auto;
+        flex-shrink: 0;
+    }
+
+    .collection-info {
+        flex: 1;
+        padding: 12px 16px;
+    }
+
+    .collection-name {
+        font-size: 15px;
+    }
+
+    .collection-count {
+        font-size: 13px;
+    }
+
+    .filter-group-title {
+        font-size: 15px;
+    }
+
+    .filter-checkbox {
+        font-size: 14px;
+    }
+
+    .panel-footer {
+        padding: 16px 20px;
+    }
+
+    .btn-reset,
+    .btn.v1 {
+        flex-shrink: 1;
+        font-size: 15px;
+    }
+
+    .admin_toolbar {
+        margin: 12px 0;
+    }
+
+    .admin_toolbar .btn.v1 span {
+        display: none;
+    }
+
+    .products_table {
+        min-width: 550px;
+    }
+
+    .products_table thead th {
+        padding: 0 10px;
+        font-size: 11px;
+        height: 40px;
+    }
+
+    .products_table tbody td {
+        padding: 10px;
+        font-size: 12px;
+    }
+
+    .action_icons button {
+        width: 28px;
+        height: 28px;
+    }
+
+    .action_icons button img {
+        width: 16px;
+        height: 16px;
+    }
+
+    .status_badge {
+        padding: 3px 10px;
+        font-size: 11px;
+    }
+
+    .profile_info {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0 20px;
+        margin-top: -60px;
+
+    }
+
+    .profile_info .profile_avatar {
+        width: 125px;
+        height: 125px;
+    }
+
+    .profile_info .profile_username,
+    .profile_info .profile_email {
+        font-size: 14px;
+    }
+
+    .profile_sidebar {
+        padding: 16px;
+    }
+
+    .profile_nav {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        gap: 8px;
+        margin-bottom: 0;
+        padding-bottom: 4px;
+        align-items: center;
+    }
+
+    .nav_item {
+        align-items: center;
+        gap: 6px;
+        padding: 10px 14px;
+        font-size: 12px;
+        text-align: center;
+        white-space: nowrap;
+        flex-shrink: 0;
+        min-width: 80px;
+    }
+
+    .nav_item img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .profile_sidebar .btn.v1 {
+        width: 100%;
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .albums_title {
+        font-size: 16px;
+        white-space: nowrap;
+        overflow-wrap: break-word;
+    }
+
+    .editor_container {
+        padding: 12px;
+    }
+
+    .editor_header {
+        padding: 12px 16px;
+        gap: 12px;
+    }
+
+    .album_title_editor {
+        font-size: 18px;
+    }
+
+    .album_subtitle_editor {
+        font-size: 12px;
+    }
+
+    .editor_header_actions {
+        width: 100%;
+        justify-content: space-between;
+        margin-top: 8px;
+        padding-top: 12px;
+        border-top: 1px solid #eee;
+    }
+
+    .editor_main {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+
+    .editor_sidebar_tabs {
+        flex-direction: row;
+        position: static;
+        width: 100%;
+        padding: 8px;
+        justify-content: center;
+    }
+
+    .sidebar_tab_vertical {
+        flex-direction: row;
+        width: auto;
+        flex: 1;
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+    .sidebar_tab_vertical span {
+        writing-mode: horizontal-tb;
+        transform: none;
+        font-size: 13px;
+    }
+
+    .sidebar_tab_vertical img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .editor_sidebar_content {
+        max-width: 100%;
+        max-height: none;
+        width: 100%;
+    }
+
+    .cards_grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .materials_categories {
+        justify-content: center;
+    }
+
+    .material_cat {
+        flex: 1 1 calc(25% - 6px);
+    }
+
+    .canvas_area {
+        padding: 10px;
+        overflow-x: auto;
+    }
+
+    .editor_footer {
+        flex-wrap: wrap;
+        gap: 8px;
+        padding: 12px;
+    }
+
+    .spread_info {
+        order: -1;
+        width: 100%;
+        margin-bottom: 4px;
+    }
+
+    .nav_btn {
+        width: 40px;
+        height: 40px;
+    }
+
+    .btn_add_spread {
+        flex: 1;
+        justify-content: center;
+    }
+
+}
+
+@media (max-width: 640px) {
+
+    .hero_search {
+        display: none;
+    }
+
+    .hero_left {
+        max-width: 85%;
+        margin: 0 auto;
+        order: 0;
+        padding: 0px;
+        min-height: auto;
+    }
+
+    .recipes_grid {
+        grid-template-columns: 1fr;
+        gap: 12px;
+        margin-bottom: 0px;
+    }
+
+    .recipe_card {
+        overflow: visible;
+    }
+
+    .recipe_card_image {
+        padding: 12px 12px 0;
+    }
+
+    .recipe_card_image img {
+        border-radius: 8px;
+    }
+
+    .recipe_card_body {
+        padding: 12px;
+        gap: 10px;
+    }
+
+    .recipe_card_title {
+        font-size: 15px;
+    }
+
+    .recipe_card_meta {
+        font-size: 13px;
+    }
+
+    .recipe_card_meta .meta_item {
+        gap: 4px;
+    }
+
+    .recipe_card_meta .meta_item img {
+        width: 14px;
+        height: 14px;
+    }
+
+    .recipe_card_ingredients {
+        font-size: 13px;
+        white-space: normal;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+
+    .recipe_card_footer {
+        gap: 8px;
+    }
+
+    .btn_icon {
+        width: 32px;
+        height: 32px;
+    }
+
+    .btn_icon img {
+        width: 15px;
+        height: 15px;
+    }
+
+    .recipe_card_actions {
+        gap: 8px;
+    }
+
+    .recipe_card_details {
+        position: static;
+        border-radius: 0 0 15px 15px;
+        padding: 16px;
+        margin-top: 0;
+        border-top: 1px dashed #E3E3E3;
+        box-shadow: none;
+    }
+
+    .recipe_card.expanded {
+        border-radius: 15px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+    }
+
+    .details_ingredients h4 {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .details_ingredients ul {
+        grid-template-columns: 1fr;
+        gap: 6px;
+    }
+
+    .details_ingredients li {
+        font-size: 13px;
+    }
+
+    .details_likes {
+        font-size: 13px;
+        padding: 8px 12px;
+    }
+
+    .details_likes img {
+        width: 18px;
+        height: 18px;
+    }
+
+    .details_author {
+        padding: 12px;
+        gap: 10px;
+    }
+
+    .author_avatar {
+        width: 40px;
+        height: 40px;
+        border-radius: 12px;
+    }
+
+    .author_name {
+        font-size: 14px;
+    }
+
+    .profile_form .forms_row {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        max-width: 390px;
+        gap: 16px;
+    }
+
+    .hero_left {
+        display: none;
+    }
+
+    .hero_right,
+    .recipe_edit_form,
+    .profile_content,
+    .albums_page {
+        padding: 20px 16px !important;
+    }
+
+    .form_actions,
+    .modal_actions,
+    .recipe_card_admin_actions,
+    .author_card_actions {
+        flex-direction: column !important;
+    }
+
+    .recipe_section .section_nav {
+        display: none;
+    }
+
+    .form_actions .btn_modal,
+    .modal_actions .btn_modal,
+    .confirm_actions .btn_modal {
+        width: 100% !important;
+    }
+
+    .auth_block {
+        flex-direction: column !important;
+        border: none !important;
+        gap: 8px !important;
+        background: transparent !important;
+    }
+
+    .auth-btn_v1 {
+        padding: 8px 16px !important;
+        border: 1px solid #ddd !important;
+        border-radius: 10px !important;
+        background: #fff !important;
+    }
+
+    header.v1 .header_container>div:first-child {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px !important;
+    }
+
+    .auth_buttons {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .auth-btn {
+        width: 100%;
+        text-align: center;
+    }
+
+    .hero_title {
+        font-size: 20px;
+    }
+
+    .highlight {
+        font-size: 0.9em;
+    }
+
+    .hero_search {
+        padding: 4px 4px 4px 12px;
+    }
+
+    .hero_search input {
+        font-size: 13px;
+    }
+
+    .search_btn {
+        width: 40px;
+        height: 40px;
+    }
+
+    .categories_label {
+        font-size: 13px;
+    }
+
+    .category_tag {
+        padding: 6px 12px;
+        font-size: 12px;
+    }
+
+    .hero_cta {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .audience_card {
+        min-height: 220px;
+    }
+
+    .audience_card--text-top .audience_card_text {
+        flex: 0 0 45%;
+    }
+
+    .audience_card--text-bottom .audience_card_text {
+        flex: 0 0 50%;
+    }
+
+    .recipe_section {
+        padding: 0 10px;
+    }
+
+    .nav_arrow {
+        width: 36px;
+        height: 36px;
+    }
+
+    .newsletter_title {
+        font-size: 16px;
+    }
+
+    .newsletter_description {
+        font-size: 12px;
+    }
+
+    .recipe_title {
+        font-size: 20px;
+    }
+
+    .recipe_description {
+        font-size: 13px;
+        line-height: 1.5;
+    }
+
+    .ingredient_item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 4px;
+        padding: 10px 12px;
+    }
+
+    .ingredient_amount {
+        margin-left: 0;
+        font-size: 13px;
+    }
+
+    .steps_wrapper {
+        padding: 16px;
+    }
+
+    .steps_grid {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+
+    .step_body {
+        flex: 1;
+        padding: 12px;
+    }
+
+    .comment_item {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .comment_header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 4px;
+    }
+
+    .comment_form textarea {
+        min-height: 100px;
+        font-size: 13px;
+    }
+
+    .panel-header {
+        padding: 14px 16px;
+    }
+
+    .panel-body {
+        padding: 16px;
+    }
+
+    .panel-footer {
+        padding: 14px 16px;
+    }
+
+    .collection-img {
+        width: 80px;
+        height: 70px;
+    }
+
+    .collection-info {
+        padding: 10px 12px;
+    }
+
+    .main_categories h3 {
+        font-size: 20px;
+    }
+
+    .products_table {
+        min-width: 480px;
+    }
+
+    .products_table thead th {
+        padding: 0 8px;
+        font-size: 10px;
+    }
+
+    .products_table tbody td {
+        padding: 8px;
+        font-size: 11px;
+    }
+
+    .action_icons {
+        gap: 4px;
+    }
+
+    .action_icons button {
+        width: 26px;
+        height: 26px;
+    }
+
+    .profile_info {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px 5px 0;
+        margin-top: -100px;
+        gap: 16px;
+    }
+
+    .profile_info .profile_avatar {
+        width: 88px;
+        height: 88px;
+    }
+
+    .profile_info .profile_username,
+    .profile_info .profile_email {
+        font-size: 14px;
+    }
+
+    .avatar_edit {
+        width: 36px;
+        height: 36px;
+    }
+
+    .profile_nav {
+        gap: 6px;
+    }
+
+    .nav_item {
+        padding: 8px 10px;
+        font-size: 11px;
+        min-width: 60px;
+    }
+
+    .nav_item img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .editor_header_left {
+        gap: 12px;
+    }
+
+    .btn_back_editor {
+        width: 32px;
+        height: 32px;
+    }
+
+    .album_title_editor {
+        font-size: 16px;
+    }
+
+    .editor_header_actions {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 8px;
+    }
+
+    .editor_status {
+        justify-content: center;
+        font-size: 12px;
+    }
+
+    .btn_editor,
+    .btn.v1 {
+        flex-shrink: 1;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .editor_sidebar_tabs {
+        flex-wrap: wrap;
+    }
+
+    .sidebar_tab_vertical {
+        flex: 1 1 45%;
+    }
+
+    .materials_categories {
+        gap: 6px;
+    }
+
+    .material_cat {
+        flex: 1 1 calc(50% - 3px);
+        max-width: none;
+    }
+
+    .materials_tags {
+        gap: 6px;
+    }
+
+    .material_tag {
+        flex: 1 1 calc(50% - 3px);
+        max-width: none;
+        padding: 8px 10px;
+        font-size: 11px;
+    }
+
+    .stickers_grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 8px;
+    }
+
+    .sticker_item {
+        padding: 8px;
+    }
+
+    .sticker_name {
+        font-size: 10px;
+    }
+
+    .canvas_toolbar {
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+
+    .canvas_toolbar_center {
+        order: 3;
+        width: 100%;
+        justify-content: center;
+    }
+
+
+    .canvas_area {
+        min-height: 300px;
+    }
+
+    .cards_grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 380px) {
+    .recipe_card_meta {
+        font-size: 12px;
+        flex-wrap: wrap;
+        gap: 6px;
+    }
+
+    .recipe_card_title {
+        font-size: 14px;
+    }
+
+    .recipe_card_ingredients {
+        font-size: 12px;
+    }
+
+    .btn_icon {
+        width: 30px;
+        height: 30px;
+    }
+
+    .btn_icon img {
+        width: 14px;
+        height: 14px;
+    }
+
+    .profile_stats {
+        flex-direction: column;
+    }
+
+    .hero_right {
+        height: fit-content;
+    }
+}
